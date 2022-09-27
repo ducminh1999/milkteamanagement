@@ -1,0 +1,75 @@
+body {
+	font-size: 18px;
+	font-family: Segoe UI;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body#login-form {
+	background-image: url(../static/img/login.jpg);
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+}
+
+.wrapper {
+	background-color: #fff;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.div-login div {
+	margin: 15px auto;
+}
+.div-lable p {
+	height: 60px;
+	display: block;
+	line-height: 60px;
+	margin: 0 auto;
+	padding-left: 20px;
+	background-color: #eae8e6;
+	font-size: 20px;
+}
+
+.div-login {
+	width: 90%;
+	padding-bottom: 10px;
+	margin: auto;
+}
+#remember{
+	background-color: #0000ff;
+}
+
+
+input[type=password], input[type=email], input[type=chekbox] {
+	width: 100%;
+	padding: 10px 10px;
+	size: 50;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+button {
+	width: 100%;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: #35c21d;
+	color: white;
+	border-radius: 4pt;
+	border: 0pt;
+	cursor: pointer;
+	cursor: pointer;
+}

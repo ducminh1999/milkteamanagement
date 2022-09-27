@@ -1,0 +1,103 @@
+.a {
+  display: none;
+}
+.whitecolor {
+  color: white;
+}
+.font600 {
+  font-weight: 600;
+}
+.div-login {
+  min-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+.div-register {
+  min-width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+.login-form {
+  background-image: url(../img/login.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.register-form {
+  background-image: url(../img/login.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu {
+  max-width: 150px !important;
+}
+
+.col-sm-2 {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.row-2 {
+  color: blue;
+}
+
+.btn-sidebar {
+  border: 1px #ccc solid;
+}
+
+.a-check {
+  background-color: #e3e3e3;
+}
+
+.col-sm-10 {
+  min-height: 90vh;
+}
+
+.div-lable {
+  margin: 30px 15px 15px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.div-form {
+  margin: 0px 15px;
+}
+
+.label-remember {
+  font-weight: 400;
+}
+
+.link-register {
+  font-style: normal !important;
+}
+
+.custom-checkbox {
+  margin: 10px auto !important;
+}
+
+#error {
+  text-align: center;
+  margin: 10px auto -10px auto;
+  font-weight: 500;
+  color: red;
+  max-width: 400px;
+}
+
+#loading {
+  font-weight: 500;
+  font-size: 40px;
+}
